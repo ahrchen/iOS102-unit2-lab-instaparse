@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-        // TODO: Pt 1 - Initialize Parse SDK
         // https://github.com/parse-community/Parse-Swift/blob/main/ParseSwift.playground/Sources/Common.swift
         ParseSwift.initialize(applicationId: "IZ8Oq5Qu8b7lmqQTfELevJBfigQaIuqku3iakxiq",
                               clientKey: "hzWUzIAPencoIJXuhSPJButdepQpubahlfa2MITq",
